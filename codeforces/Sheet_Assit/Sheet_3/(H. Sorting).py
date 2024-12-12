@@ -1,0 +1,6 @@
+N = int(input())
+A = list(map(int, input().split()))
+
+Array = sorted(A)
+print(*Array)
+
